@@ -537,7 +537,7 @@ div img{
 
 footer{
   border-top: 2px solid $orange;
-  margin: 100px;
+  margin: 0px 100px 0px 100px;
   p{
     margin-left: 0px;
     font-size: 14px;
@@ -546,5 +546,33 @@ footer{
     height: 50px;
     text-align: right;
     margin-top: -40px;
+  }
+}
+
+.galerie{
+  margin-left: 100px;
+  img{
+    margin-left: 15px;
+    margin-bottom: 15px;
+    border: 1px solid grey;
+  }
+}
+
+form{
+  margin: 50px 0px 20px 400px;
+  border-right: 1px solid $orange;
+  border-bottom: 1px solid $orange;
+  width: 500px;
+  input{
+    margin-bottom: 15px;
+  }
+  #envoi{
+    margin-left: 200px;
+    margin-top: 15px;
+  }
+  label{
+    display: inline-block;
+    text-align: right;
+    width: 135px;
   }
 }
