@@ -539,11 +539,17 @@ footer .icone {
 
 .coords {
   font-size: 18px;
-  margin-top: -20px;
+  margin-bottom: -10px;
+  float: right;
+  margin-top: -125px;
+  margin-right: 100px;
+}
+.coords p {
+  text-align: right;
 }
 
 form {
-  margin: 50px 0px 20px 100px;
+  margin: 50px 0px 20px 400px;
   width: 500px;
 }
 form input {
@@ -590,4 +596,28 @@ ul {
 }
 ul li {
   padding-bottom: 5px;
+}
+
+.ficheSebio {
+  position: relative;
+  margin-top: 40px;
+  height: 750px;
+}
+.ficheSebio p {
+  width: 500px;
+  position: relative;
+  top: -780px;
+  left: 500px;
+}
+
+.ficheAppliseries {
+  position: relative;
+  margin-top: 40px;
+  height: 450px;
+}
+.ficheAppliseries p {
+  width: 500px;
+  position: relative;
+  top: -470px;
+  left: 530px;
 }

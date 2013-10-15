@@ -169,10 +169,16 @@ footer{
 .coords{
   font-size: 18px;
   margin-bottom: -10px;
+  float: right;
+  margin-top: -125px;
+  margin-right: 100px;
+  p{
+    text-align: right;
+  }
 }
 
 form{
-  margin: 50px 0px 20px 100px;
+  margin: 50px 0px 20px 400px;
   width: 500px;
   input{
     margin-bottom: 15px;
@@ -218,5 +224,29 @@ ul{
   width: 1109px;
   li{
     padding-bottom: 5px;
+  }
+}
+
+.ficheSebio{
+  position: relative;
+  margin-top: 40px;
+  height: 750px;
+  p{
+    width: 500px;
+    position: relative;
+    top: -780px;
+    left: 500px;
+  }
+}
+
+.ficheAppliseries{
+  position: relative;
+  margin-top: 40px;
+  height: 450px;
+  p{
+    width: 500px;
+    position: relative;
+    top: -470px;
+    left: 530px;
   }
 }
