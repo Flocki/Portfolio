@@ -6,29 +6,40 @@
 	<link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-	<h1 class="hidden">Mon portfolio</h1>
+	<h1 class="hidden">Florence Rézette - Web Developer : Page de contact</h1>
 	<header>
 		<ul id="nav">
 			<li><a href="./index.html">Accueil</a></li>
 			<li><a href="./page_web.html">Web</a></li>
 			<li><a href="./page_2d.html">2D</a></li>
 			<li><a href="./blog.html">Blog</a></li>
-			<li><a href="./contact.html">Contact</a></li>
+			<li><a href="./contact.html" class="actif">Contact</a></li>
 		</ul>
 		<a href="index.html" id="logo"><img src="../img/logo_moi.png" alt="Retour à la page d'accueil" width="240" height="55"></a>
 	</header>
-		<form action="" method="post">
-			<label for="nom">Votre nom&nbsp:</label>
-			<input type="text" id="nom" title="Entrez votre nom" /><br />
-			<label for="prenom">Votre prénom&nbsp;:</label>
-			<input type="text" id="prenom" title="Entrez votre prénom" /><br />
-			<label for="email">Votre email&nbsp:</label>
-			<input type="text" id="email" title="Entrez votre prénom" /><br />
-			<label for="message">Votre message&nbsp;:</label>
-			<textarea name="Entrez votre message" id="message" cols="30" rows="10"></textarea><br />
-			<input type="submit" id="envoi" title="Envoyez moi votre message">
-		</form>
-	<footer>
+	<section class="moi">
+		<h1 class="bleu">&Agrave; propos de moi</h1>
+		<img src="../img/moi.png" alt="C'est moi" width="400" height="230"> 
+		<p>Jeune maman dynamique, je me tiens à mes engagements et aime arriver à mes fins.</p> 
+		<p>Durant notre collaboration, vous aurez l’occasion d’en juger.</p>
+	</section>
+	<section class="coords">
+		<p>Florence Rézette</p>
+		<p>0498/19.32.32</p>
+		<p>florence.rezette@hotmail.com</p>
+	</section>
+	<form action="" method="post">
+		<label for="nom">Votre nom</label>
+		<input type="text" id="nom" title="Entrez votre nom" /><br />
+		<label for="prenom">Votre prénom</label>
+		<input type="text" id="prenom" title="Entrez votre prénom" /><br />
+		<label for="email">Votre email</label>
+		<input type="text" id="email" title="Entrez votre prénom" /><br />
+		<label for="message">Votre message</label>
+		<textarea name="Entrez votre message" id="message" cols="30" rows="10"></textarea><br />
+		<input type="submit" id="envoi" value="Envoyer" title="Envoyez moi votre message">
+	</form>
+	<footer id="footer">
 		<p>Created and designed by Florence Rézette</p>
 		<div class="icone">
 			<a class="icone" href="http://www.facebook.com/florence.rezette"><img src="../img/facebook.jpg" alt="Visitez ma page Facebook" width="45" height="50"></a>

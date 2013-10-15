@@ -1,5 +1,8 @@
+/*@import "compass";*/
 @import "normalize";
 @import "colors";
+
+/*@include sticky-footer(55px);*/
 
 body{
   font-family: Calibri, Verdana, sans-serif;
@@ -88,7 +91,7 @@ p.bleu{
   font-size: 30px;
   text-align: center;
   margin: 0 auto;
-  margin-top: 75px;
+  margin-top: 50px;
   margin-bottom: 50px;
   width: 800px;
   span{
@@ -99,25 +102,20 @@ p.bleu{
 
 div img{
   margin-left: 0;
-  margin-right: 50px;
-}
-
-.moi{
-  position: relative;
-  p{
-    position: relative;
-    font-size: 20px;
-    left: 450px;
-    bottom: 255px;
-    width: 400px;
-  }
+  margin-right: 10px;
 }
 
 .realisations{
-  margin-top: -45px;
+  div{
+    width: 85%;
+    img{
+      border: 1px solid #aaa;
+      padding: 3px;
+    }
+  }
   p{
     text-align: right;
-    width: 850px;
+    width: 1150px;
   }
   a{
     color: $orange;
@@ -128,7 +126,7 @@ div img{
 }
 
 .references{
-  margin-top: 90px;
+  margin-top: 40px;
   font-size: 20px;
 }
 
@@ -149,16 +147,32 @@ footer{
 .galerie{
   margin-left: 100px;
   img{
-    margin-left: 15px;
-    margin-bottom: 15px;
-    border: 1px solid grey;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #aaa;
   }
 }
 
+.moi{
+  position: relative;
+  width: 1000px;
+  height: 300px;
+  p{
+    position: relative;
+    font-size: 20px;
+    left: 420px;
+    bottom: 255px;
+    width: 300px;
+  }
+}
+
+.coords{
+  font-size: 18px;
+  margin-bottom: -10px;
+}
+
 form{
-  margin: 50px 0px 20px 400px;
-  border-right: 1px solid $orange;
-  border-bottom: 1px solid $orange;
+  margin: 50px 0px 20px 100px;
   width: 500px;
   input{
     margin-bottom: 15px;
@@ -174,15 +188,20 @@ form{
   }
 }
 
+.blog h1+article{
+  border-top: 0px;
+}
+
 article{
   width: 600px;
   margin: 0 auto;
-  margin-top: 50px;
-  border-bottom: 1px solid $orange;
+  margin-top: 10px;
+  border-top: 1px solid $orange;
   h2{
     font-size: 25px;
     color: $bleu;
     margin-left: 20px;
+    margin-bottom: -5px;
   }
   .date{
     font-size: 14px;
@@ -191,5 +210,13 @@ article{
   p{
     margin-left: 20px;
     font-size: 18px;
+  }
+}
+
+ul{
+  margin-left: 100px;
+  width: 1109px;
+  li{
+    padding-bottom: 5px;
   }
 }
