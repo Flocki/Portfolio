@@ -537,14 +537,14 @@ footer .icone {
   width: 300px;
 }
 
-.coords {
+.vcard {
   font-size: 18px;
   margin-bottom: -10px;
   float: right;
   margin-top: -125px;
   margin-right: 100px;
 }
-.coords p {
+.vcard p {
   text-align: right;
 }
 
@@ -603,11 +603,40 @@ ul li {
   margin-top: 40px;
   height: 750px;
 }
+.ficheSebio img {
+  box-shadow: 0px 0px 10px #777;
+}
 .ficheSebio p {
   width: 500px;
   position: relative;
   top: -780px;
   left: 500px;
+}
+.ficheSebio p.annee {
+  font-size: 14px;
+}
+.ficheSebio table {
+  width: 200px;
+  position: relative;
+  top: -780px;
+  left: 600px;
+  text-align: center;
+}
+.ficheSebio table td {
+  width: 100px;
+}
+.ficheSebio table .true {
+  color: #53c182;
+}
+.ficheSebio table .false {
+  color: #ae2c2c;
+}
+.ficheSebio a {
+  text-decoration: none;
+  color: #fc9041;
+}
+.ficheSebio a:hover {
+  color: #618dbe;
 }
 
 .ficheAppliseries {
@@ -615,9 +644,38 @@ ul li {
   margin-top: 40px;
   height: 450px;
 }
+.ficheAppliseries img {
+  box-shadow: 0px 0px 10px #777;
+}
 .ficheAppliseries p {
   width: 500px;
   position: relative;
   top: -470px;
   left: 530px;
+}
+.ficheAppliseries p.annee {
+  font-size: 14px;
+}
+.ficheAppliseries table {
+  width: 200px;
+  position: relative;
+  top: -470px;
+  left: 630px;
+  text-align: center;
+}
+.ficheAppliseries table td {
+  width: 100px;
+}
+.ficheAppliseries table .true {
+  color: #53c182;
+}
+.ficheAppliseries table .false {
+  color: #ae2c2c;
+}
+.ficheAppliseries a {
+  text-decoration: none;
+  color: #fc9041;
+}
+.ficheAppliseries a:hover {
+  color: #618dbe;
 }

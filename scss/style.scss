@@ -166,7 +166,7 @@ footer{
   }
 }
 
-.coords{
+.vcard{
   font-size: 18px;
   margin-bottom: -10px;
   float: right;
@@ -231,11 +231,40 @@ ul{
   position: relative;
   margin-top: 40px;
   height: 750px;
+  img{
+    box-shadow: 0px 0px 10px #777; 
+  }
   p{
     width: 500px;
     position: relative;
     top: -780px;
     left: 500px;
+    &.annee{
+      font-size: 14px;
+    }
+  }
+  table{
+    width: 200px;
+    position: relative;
+    top: -780px;
+    left: 600px;
+    text-align: center;
+    td{
+      width: 100px;
+    }
+    .true{
+      color: #53c182;
+    }
+    .false{
+      color: #ae2c2c;
+    }
+  }
+  a{
+    text-decoration: none;
+    color: $orange;
+  }
+  a:hover{
+    color: $bleu;
   }
 }
 
@@ -243,10 +272,39 @@ ul{
   position: relative;
   margin-top: 40px;
   height: 450px;
+  img{
+    box-shadow: 0px 0px 10px #777; 
+  }
   p{
     width: 500px;
     position: relative;
     top: -470px;
     left: 530px;
+    &.annee{
+      font-size: 14px;
+    }
+  }
+  table{
+    width: 200px;
+    position: relative;
+    top: -470px;
+    left: 630px;
+    text-align: center;
+    td{
+      width: 100px;
+    }
+    .true{
+      color: #53c182;
+    }
+    .false{
+      color: #ae2c2c;
+    }
+  }
+  a{
+    text-decoration: none;
+    color: $orange;
+  }
+  a:hover{
+    color: $bleu;
   }
 }
