@@ -9,12 +9,12 @@
 	<h1 class="hidden">Florence Rézette - Web Developer</h1>
 	<header>
 		<section>
-			<ul id="nav">
-				<li><a href="./index.html" class="actif">Accueil</a></li>
-				<li><a href="./page_web.html">Web</a></li>
-				<li><a href="./page_2d.html">2D</a></li>
-				<li><a href="./blog.html">Blog</a></li>
-				<li><a href="./contact.html">Contact</a></li>
+			<ul id="nav" itemscope itemtype="http://schema.org/ItemList">
+				<li  itemprop="itemListElement"><a href="index.html" class="actif">Accueil</a></li>
+				<li itemprop="itemListElement"><a href="page_web.html">Web</a></li>
+				<li itemprop="itemListElement"><a href="page_2d.html">2D</a></li>
+				<li itemprop="itemListElement"><a href="blog.html">Blog</a></li>
+				<li itemprop="itemListElement"><a href="contact.html">Contact</a></li>
 			</ul>
 			<a href="index.html" id="logo"><img src="../img/logo_moi.png" alt="Retour à la page d'accueil" width="240" height="55"></a>
 		</section>
@@ -35,23 +35,23 @@
 			<img src="../img/logo_sebio_penche.png" alt="Logo d'un site pour lequel j'ai fait une refonte" width="420" height="230">
 		</div>-->
 	</section>
-	<section class="realisations">
-		<h1 class="bleu">Dernières réalisations</h1>
+	<section class="realisations" itemscope itemtype="http://schema.org/ImageObject">
+		<h1 class="bleu">Mes dernières réalisations</h1>
 		<div>
-			<img src="../img/sebio_small.png" alt="Refonte du site SeBIO" width="200" height="250">
-			<img src="../img/appliseries.png" alt="" width="200" height="250">
-			<img src="../img/logo_sebio.png" alt="Création de logo" width="200" height="250">
-			<img src="../img/sebio_small.png" alt="Refonte du site SeBIO" width="200" height="250">
-			<img src="../img/appliseries.png" alt="" width="200" height="250">
-			<img src="../img/logo_sebio.png" alt="Création de logo" width="200" height="250">
+			<img itemprop="image" src="../img/sebio_small.png" alt="Refonte du site SeBIO" width="200" height="250">
+			<img itemprop="image" src="../img/appliseries.png" alt="" width="200" height="250">
+			<img itemprop="image" src="../img/logo_sebio.png" alt="Création de logo" width="200" height="250">
+			<img itemprop="image" src="../img/sebio_small.png" alt="Refonte du site SeBIO" width="200" height="250">
+			<img itemprop="image" src="../img/appliseries.png" alt="" width="200" height="250">
+			<img itemprop="image" src="../img/logo_sebio.png" alt="Création de logo" width="200" height="250">
 		</div>
-		<p><a href="./page_web.html">Découvrez en d'autres</a></p>
+		<p><a href="page_web.html">Découvrez en d'autres</a></p>
 	</section>
 	<section class="references">
 		<h1 class="bleu">Quelques références</h1>
-		<ul>
-			<li>Vous pouvez visiter le site de <a href="http://www.martinmailleux.com/">Martin Mailleux</a>, dont je me suis inspirée pour ce site.</li>
-			<li>Je vous recommande le site de <a href="http://www.smashingmagazine.com/">Smashing Magazine</a>.C'est un site sur lequel on peut trouver beaucoup de réponses et de choses intéressantes en rapport avec le web.</li>
+		<ul itemscope itemtype="http://schema.org/ItelList">
+			<li itemprop="itemListElement">Vous pouvez visiter le site de <a href="http://www.martinmailleux.com/">Martin Mailleux</a>, dont je me suis inspirée pour ce site.</li>
+			<li itemprop="itemListElement">Je vous recommande le site de <a href="http://www.smashingmagazine.com/">Smashing Magazine</a>.C'est un site sur lequel on peut trouver beaucoup de réponses et de choses intéressantes en rapport avec le web.</li>
 		</ul>
 	</section>
 	<footer id="footer">
@@ -62,5 +62,7 @@
 			<a class="icone" href=""><img src="../img/linkedin.jpg" alt="Visitez mon profil Linkedin" width="50" height="50"></a>
 		</div>
 	</footer>
+	<script src="../js/jquery.js"></script>
+	<script src="../js/script.js"></script>
 </body>
 </html>
