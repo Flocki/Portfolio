@@ -118,6 +118,9 @@ div img{
       border: 1px solid #aaa;
       padding: 3px;
     }
+    img:hover{
+      box-shadow: 1px 1px 10px #888;
+    }
   }
   p{
     text-align: right;
@@ -160,6 +163,9 @@ footer{
     margin-bottom: 10px;
     border: 1px solid #aaa;
   }
+  img:hover{
+      box-shadow: 1px 1px 10px $bleu;
+    }
 }
 
 .moi{
@@ -248,14 +254,13 @@ ul{
     top: -780px;
     left: 500px;
     &.annee{
-      font-size: 14px;
+      color: #777;
     }
   }
   table{
     position: relative;
     top: -780px;
     left: 600px;
-    text-align: center;
   }
   a{
     text-decoration: none;
@@ -267,16 +272,18 @@ ul{
 }
 
 tr{
-  border-top: 1px solid #777;
-  border-bottom: 1px solid #777;
+  border-top: 1px solid #bbb;
+  border-bottom: 1px solid #bbb;
   padding-bottom: 15px;
   th{
     font-weight: normal;
     padding-right: 20px;
+    text-align: left;
   }
   td{
     font-size: 18px;
     font-style: italic;
+    text-align: right;
   }
 }
 
@@ -293,24 +300,13 @@ tr{
     top: -470px;
     left: 530px;
     &.annee{
-      font-size: 14px;
+      color: #777;
     }
   }
   table{
-    width: 200px;
     position: relative;
     top: -470px;
     left: 630px;
-    text-align: center;
-    td{
-      width: 100px;
-    }
-    .true{
-      color: #53c182;
-    }
-    .false{
-      color: #ae2c2c;
-    }
   }
   a{
     text-decoration: none;
@@ -320,3 +316,8 @@ tr{
     color: $bleu;
   }
 }
+
+.titreTableau{
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }

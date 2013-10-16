@@ -491,6 +491,9 @@ div img {
   border: 1px solid #aaa;
   padding: 3px;
 }
+.realisations div img:hover {
+  box-shadow: 1px 1px 10px #888;
+}
 .realisations p {
   text-align: right;
   width: 1150px;
@@ -531,6 +534,9 @@ footer .icone {
   margin-left: 10px;
   margin-bottom: 10px;
   border: 1px solid #aaa;
+}
+.galerie img:hover {
+  box-shadow: 1px 1px 10px #618dbe;
 }
 
 .moi {
@@ -621,13 +627,12 @@ ul li {
   left: 500px;
 }
 .ficheSebio p.annee {
-  font-size: 14px;
+  color: #777;
 }
 .ficheSebio table {
   position: relative;
   top: -780px;
   left: 600px;
-  text-align: center;
 }
 .ficheSebio a {
   text-decoration: none;
@@ -638,17 +643,19 @@ ul li {
 }
 
 tr {
-  border-top: 1px solid #777;
-  border-bottom: 1px solid #777;
+  border-top: 1px solid #bbb;
+  border-bottom: 1px solid #bbb;
   padding-bottom: 15px;
 }
 tr th {
   font-weight: normal;
   padding-right: 20px;
+  text-align: left;
 }
 tr td {
   font-size: 18px;
   font-style: italic;
+  text-align: right;
 }
 
 .ficheAppliseries {
@@ -666,23 +673,12 @@ tr td {
   left: 530px;
 }
 .ficheAppliseries p.annee {
-  font-size: 14px;
+  color: #777;
 }
 .ficheAppliseries table {
-  width: 200px;
   position: relative;
   top: -470px;
   left: 630px;
-  text-align: center;
-}
-.ficheAppliseries table td {
-  width: 100px;
-}
-.ficheAppliseries table .true {
-  color: #53c182;
-}
-.ficheAppliseries table .false {
-  color: #ae2c2c;
 }
 .ficheAppliseries a {
   text-decoration: none;
@@ -690,4 +686,9 @@ tr td {
 }
 .ficheAppliseries a:hover {
   color: #618dbe;
+}
+
+.titreTableau {
+  text-transform: uppercase;
+  margin-bottom: 10px;
 }
